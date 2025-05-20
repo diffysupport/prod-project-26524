@@ -21,7 +21,7 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    isolate: ''
+    isolate: .cookiesjsr-banner
     delay: 20
     scroll: true
     headers:

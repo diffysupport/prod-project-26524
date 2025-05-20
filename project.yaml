@@ -1,0 +1,40 @@
+basic:
+    name: 'Teste Figma'
+    environments:
+        production: 'https://alojamentoprod.dev11.javali.pt/'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 376
+        - 640
+        - 1024
+        - 1366
+    pages:
+        - /
+        - /ofertas
+        - /imovel/quarto-em-cova-da-piedade-38
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 20
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
